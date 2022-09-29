@@ -1,0 +1,262 @@
+h1{
+    text-align: center;
+    color:#0C10F3;
+    width: 5,10px;
+    margin: 4px;
+}
+body{
+    min-width: 1224px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background:linear-gradient(#44d7cd,#47cf97, white);
+}
+  
+  .subrayado{
+    display:flex;
+  }
+  .dibujarLineas{
+    border-bottom: solid 4px #0a4214;
+    width: 30px;
+    margin: 10px;
+  }
+  .esconderLetra{
+    display: none;
+    font-size: 18px;
+  }
+  
+  .btn-iniciar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    
+    position: absolute;
+    width: 417px;
+    height: 114px;
+    left: 0;
+    top: 20rem;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+  
+  /* White */
+  
+    color: #FFFFFF;
+  }
+  
+  .btn-palabra{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: absolute;
+    width: 417px;
+    height: 70px;
+    left: 0.1rem;
+    top: 30rem; 
+    border: 1px solid #0A3871;
+    box-sizing: border-box;
+    border-radius: 24px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    justify-content: center;
+    color: #0A3871;
+    }
+  
+    .text-input {
+    
+      position: absolute;
+      width: 600px;
+      height: auto;
+      left: 1.5rem;
+      top: 200px;
+    
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 150%;
+      justify-content: baseline;
+     
+    
+      color: #0A3871;
+      background: transparent;
+      border: none;
+      text-transform:uppercase;
+    }
+    ::placeholder { color: #2575d7; text-transform:lowercase;}
+    
+    .text-input:focus { 
+        border: none;
+        outline: none;
+       }
+  .logo{
+    position: absolute;
+    left: 40px;
+    right: 37.43%;
+    top: 40px;
+    bottom: 0%;
+    width: 50px;
+    height:50px;
+  }
+  .img-alerta{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+  
+  }
+
+  label {
+    flex-direction: row;
+    position: static;
+    width: 300px;
+    height: 18px;
+    left: 24px;
+    top: 0px;
+    padding-left: 25px;
+    font-weight: 600;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-size:18px;
+    line-height: 100%;
+    color: #495057;
+  }
+
+  .form-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    
+    position: absolute;
+    width: auto;
+    height: 18px;
+    left: 2rem;
+    top: 41rem;
+  }
+  .botones-div{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 0;
+    top: 43rem;
+  }
+  .btn-azul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+  
+    position: static;
+    width: 328px;
+    height: 65px;
+    left: 0px;
+    top: 0px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 24px;
+    flex-grow: 0;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center; 
+  
+  }
+  .btn-blanco{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    position: static;
+    width: 328px;
+    height: 65px;
+    left: 352px;
+    top: 0px;
+  
+    background: #adc2de;
+    border: 1px solid #094c9e;
+    box-sizing: border-box;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 24px;
+  
+    color: #116da5;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 19px;
+    justify-content: center;
+  }
+  .canvas{
+    margin-left: 9.5rem;
+    width: 1124px;
+    height:705px
+    
+    
+  }
+  .botones-div-canvas{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    
+    position: absolute;
+    width: 780px;
+    height: 67px;
+    left: 30.5rem;
+    top: 630px;
+    margin-bottom: 10px;
+  }
+  .botones-home{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    left:42rem;
+  }
+  .palabra-nueva{
+    position: absolute;
+    left: 30rem;
+   }
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Inter', sans-serif;
+  height: auto;
+  font-weight: bold;
+ 
+}
+.copyright, footer{
+  color: rgb(1, 6, 24);
+  font-size: 12px;
+  margin: 20px;
+}

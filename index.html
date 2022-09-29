@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="descripcion" content="esta pagina se trata de un desafio alura-one el juego el ahorcado">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Desafio Juego Ahorcado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">"
+    <link rel="shortcut icon" href="/imagen/icon.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<h1>Juego del Ahorcado</h1>
+<body>
+    <header>
+        <img src="imagen/Logo_a.png" alt="logo de alura">
+    </header>
+    <main>
+        <div id="div-desaparece" class="botones-home">
+            <a href="#forca"> <!--BOTONES INPUT-->
+                <input class="btn-iniciar" type="submit" value="Iniciar Partida" id="iniciar-juego" onclick="iniciarJuego()">
+            </a>
+            <button class="btn-palabra" id="nova-palavra" onclick="ensenarPantallaDeAgregarPalabra()">Agregar Palabra</button>
+        </div>
+    
+        <div id="agregar-palabra" class="palabra-nueva">
+            <input class="text-input" type="text" id="input-nueva-palabra"  maxlength="8" placeholder="Escriba una palabra">
+            <div class="form-group">
+              <img src="imagen/Alerta.png" class="img-alerta">
+              <label for="input-texto"> Máx. 8 caracteres</label>
+            </div>
+            <div class="botones-div">
+              <input class="btn-azul" type="submit" value="Guardar y empezar" id="btn-guardar">
+              <input class="btn-blanco" type="submit" value="Cancelar" id="btn-cancelar">
+            </div> 
+            </div>
+                <div id="div-aparece-ahorcado" class="canvas">
+                    <canvas id="horca" height="850px" width="1100"></canvas>
+                <div class="subrayado">
+            </div>
+            <div class="botones-div-canvas">
+              <input class="btn-azul" type="submit" value="Nuevo Juego" id="btn-nuevo-juego">
+              <input class="btn-blanco" type="submit" value="Salir" id="btn-salir">
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p class="copyright">&copy; Copyright &#10094; Jose Luis Ortiz &#10095; 2022</p>
+    </footer>   
+    
+    <!--ENLACE CON ARCHIVOS JavaScript-->
+    <script src="js/juego.js"></script>
+    <script src="js/canvas.js"></script>
+</body>
+
+</html>
